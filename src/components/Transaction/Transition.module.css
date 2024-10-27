@@ -18,12 +18,12 @@
   border: 1px solid black;
 }
 
-.bodyTable tr {
-  background-color: #ffffff;
+.evenRow {
+  background-color: #e0e0e0;
 }
 
-.bodyTable tr:nth-child(even) {
-  background-color: #e0e0e0;
+.oddRow {
+  background-color: #ffffff;
 }
 
 .quantity {
