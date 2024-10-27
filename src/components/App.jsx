@@ -4,8 +4,8 @@ import transactions from './../assets/transactions.json';
 import 'modern-normalize';
 import '../index.css';
 import Profiler from './Profile/Profile';
-import FriendList from './Friendlist/frienlist';
-import TransactionHistory from './Transaction/transition';
+import FriendList from './Friendlist/Frienlist';
+import TransactionHistory from './Transaction/Transition';
 
 const App = () => {
   return (
