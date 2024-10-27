@@ -5,7 +5,7 @@ import 'modern-normalize';
 import '../index.css';
 import Profiler from './Profile/Profile';
 import FriendList from './Friendlist/Frienlist';
-import TransactionHistory from './Transaction/Transition';
+import TransactionHistory from './Transaction/Transaction';
 
 const App = () => {
   return (

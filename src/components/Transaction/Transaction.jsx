@@ -1,4 +1,4 @@
-import s from './Transition.module.css';
+import s from './Transaction.module.css';
 const TransactionHistory = ({ items }) => {
   return (
     <table className={s.table}>
@@ -9,15 +9,15 @@ const TransactionHistory = ({ items }) => {
           <th className={s.nameColum}>Currency</th>
         </tr>
       </thead>
-      {items.map((item, index) => (
-        <tbody className={s.bodyTable} key={item.id}>
-          <tr className={index % 2 === 1 ? s.evenRow : s.oddRow}>
+      <tbody className={s.bodyTable}>
+        {items.map((item, index) => (
+          <tr key={item.id} className={index % 2 === 1 ? s.evenRow : s.oddRow}>
             <td className={s.quantity}>{item.type}</td>
             <td className={s.quantity}>{item.amount}</td>
             <td className={s.quantity}>{item.currency}</td>
           </tr>
-        </tbody>
-      ))}
+        ))}
+      </tbody>
     </table>
   );
 };
