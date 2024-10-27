@@ -1,0 +1,34 @@
+.table {
+  width: 700px;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.nav {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.nameColum {
+  width: 300px;
+  padding: 12px;
+  font-weight: bold;
+  color: #ffffff;
+  border: 1px solid black;
+}
+
+.bodyTable tr {
+  background-color: #ffffff;
+}
+
+.bodyTable tr:nth-child(even) {
+  background-color: #e0e0e0;
+}
+
+.quantity {
+  font-weight: 600;
+  padding: 5px;
+  color: #333333;
+  border: 1px solid black;
+}
